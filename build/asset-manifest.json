@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/banco-universitario/static/css/main.e96c4a4c.css",
+    "main.js": "/banco-universitario/static/js/main.9b935eaa.js",
+    "index.html": "/banco-universitario/index.html",
+    "main.e96c4a4c.css.map": "/banco-universitario/static/css/main.e96c4a4c.css.map",
+    "main.9b935eaa.js.map": "/banco-universitario/static/js/main.9b935eaa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e96c4a4c.css",
+    "static/js/main.9b935eaa.js"
+  ]
+}
