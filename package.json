@@ -6,6 +6,7 @@
   "dependencies": {
     "@mui/material": "^5.0.0",
     "axios": "^1.0.0",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.0.0",
@@ -14,8 +15,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,7 @@
   "bugs": {
     "url": "https://github.com/3rnestocs/banco-universitario/issues"
   },
-  "homepage": "",
+  "homepage": "https://3rnestocs.github.io/banco-universitario",
   "browserslist": {
     "production": [
       ">0.2%",
