@@ -14,8 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/3rnestocs/banco-universitario/issues"
   },
-  "homepage": "https://3rnestocs.github.io/banco-universitario",
+  "homepage": "",
   "browserslist": {
     "production": [
       ">0.2%",
