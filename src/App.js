@@ -4,12 +4,12 @@ import Login from './pages/login/Login';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/banco-universitario">
       <Routes>
-        <Route path="/" element={<Institutional />} />
+        <Route exact path="/banco-universitario" element={<Institutional />} />
         <Route path="/login" element={<Login />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
